@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+/* --------------------------------------------------------- RESET CSS ------------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 100%;
+  font-family: sans-serif;
+  color: #fff;
+  background: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* --------------------------------------------------------- NORMAL CSS ------------------------------------------------------------- */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  background-color: #313030;
+  padding: 80px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+}
+
+.titulo {
+  margin: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.box-password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.input-contraseña {
+  width: 260px;
+  height: 35px;
+  border-radius: 20px;
+  text-indent: 10px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+}
+
+input:focus {
+  outline: 2px solid #7A7A7A;
+}
+
+
+.ct-letras {
+  display: grid;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.texto-cuenta {
+  display: flex;
+  justify-content: space-between;
+  width: 110%;
+  font-size: 18px;
+}
+
+
+
+/* --------------------------------------------------------- BOTON Y OJO ------------------------------------------------------------- */
+
+
+.boton-contraseña {
+  width: 32px;
+  border-radius: 20px;
+  margin: 8px;
+  padding: 6px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+}
+
+.boton-contraseña:hover {
+  background-color: #c2c2c2;
+  transition: all 0.3s ease-in-out;
+}
+
+.imagen-ojo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+/* --------------------------------------------------------- BOTON Y OJO ------------------------------------------------------------- */
+
+/* --------------------------------------------------- CONTAINER RAYAS SEGURIDAD ------------------------------------------------------ */
+
+.container-rayas {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.titulo-seguridad {
+  font-weight: 600;
+  font-size: 19px;
+  margin: 20px 90px 20px 0;
+  height: 20px;
+  transition: color 0.5s ease-in-out;
+
+}
+
+.container-seguro {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rayas {
+  width: 38px;
+  height: 15px;
+  background-color: #7a7a7a;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.muy-debil {
+  background-color: #ff0000;
+}
+
+.debil {
+  background-color: #ff5555;
+}
+
+.bien {
+  background-color: #d9ff00;
+}
+
+.fuerte {
+  background-color: #63fe58;
+}
+
+.muy-fuerte {
+  background-color: #00ff1e;
+}
+
+
+
+
+/* --------------------------------------------------- CONTAINER RAYAS SEGURIDAD ------------------------------------------------------ */
+
+/* --------------------------------------------------- CONTAINER FOOTER ------------------------------------------------------ */
+.container-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  top: 70px;
+}
+
+.boton-github {
+  width: 28px;
+  border-radius: 20px;
+  margin: 8px;
+  padding: 4px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px;
+}
+
+.boton-github:hover {
+  background-color: #c2c2c2;
+  transition: all 0.3s ease-in-out;
+}
+
+/* --------------------------------------------------- CONTAINER FOOTER ------------------------------------------------------ */
